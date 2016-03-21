@@ -1,3 +1,13 @@
+/* CHANGE ALL IMAGES TO BILL MURRAY */
+var img = document.getElementsByTagName('img');
+for(var i=0; i<img.length; i++) {
+  img[i].src = 'https://www.placecage.com/200/300'
+}
+
+
+
+// End billmurray
+
   console.log("Hello from picker.js");
 
   var lowest = 1;
